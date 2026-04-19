@@ -20,7 +20,7 @@ import pom.CreateCampaignPage;
 import pom.HomePage;
 import pom.LoginPage;
 
-public class CreateCampaignWithMandatoryFields extends BaseClass {
+public class CreateCampaignWithMandatoryFields{
 
 	public static void main(String[] args) throws IOException {
 		PropertyUtility plib=new PropertyUtility();

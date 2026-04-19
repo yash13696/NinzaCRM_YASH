@@ -11,7 +11,8 @@ public class JavaUtility {
 	{
 		Random r=new Random();
 		char upper= (char)('A'+r.nextInt(25));
-		String alpha=""+upper;
+		char upper1=(char)('B'+r.nextInt(24));
+		String alpha=""+upper+upper1;
 		return alpha;
 	}
 	

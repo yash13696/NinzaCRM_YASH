@@ -11,8 +11,11 @@ public class CreateCampaignPage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	@FindBy(xpath = "//span[text()='Create Campaign']")
+	private WebElement campaign;
+	
 	@FindBy(xpath = "//button[text()='Create Campaign']")
-	private WebElement createCampaign;
+	private WebElement createCampanign;
 	
 	@FindBy(name = "campaignName")
 	private WebElement campaignName;
@@ -26,8 +29,12 @@ public class CreateCampaignPage {
 	@FindBy(name = "campaignStatus")
 	private WebElement status;
 
+	public WebElement getCampaign() {
+		return campaign;
+	}
+	
 	public WebElement getCreateCampaign() {
-		return createCampaign;
+		return createCampanign;
 	}
 
 	public WebElement getCampaignName() {

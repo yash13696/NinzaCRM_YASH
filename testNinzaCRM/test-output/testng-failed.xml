@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.SampleDataProvider1">
+      <class name="testng.CreateCampaign">
         <methods>
-          <include name="logInProgram"/>
+          <include name="afterMethod"/>
+          <include name="afterSuit"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuit"/>
+          <include name="createCampaignWithMandatoryFields"/>
         </methods>
-      </class> <!-- testng.SampleDataProvider1 -->
+      </class> <!-- testng.CreateCampaign -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

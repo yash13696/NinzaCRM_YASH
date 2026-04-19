@@ -1,61 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Capaign Successfully Created]]>
+    </line>
+    <line>
+      <![CDATA[Capaign Successfully Created]]>
+    </line>
+    <line>
+      <![CDATA[Capaign Successfully Created]]>
+    </line>
   </reporter-output>
-  <suite started-at="2026-04-19T09:38:46 IST" name="Default suite" finished-at="2026-04-19T09:39:25 IST" duration-ms="38818">
+  <suite started-at="2026-04-19T11:16:26 IST" name="Default suite" finished-at="2026-04-19T11:16:48 IST" duration-ms="22101">
     <groups>
     </groups>
-    <test started-at="2026-04-19T09:38:46 IST" name="Default test" finished-at="2026-04-19T09:39:25 IST" duration-ms="38818">
-      <class name="testng.SampleDataProvider2">
-        <test-method signature="logInProgram(java.lang.String,java.lang.String)[pri:0, instance:testng.SampleDataProvider2@51399530]" started-at="2026-04-19T09:38:49 IST" name="logInProgram" data-provider="loginDetails" finished-at="2026-04-19T09:39:07 IST" duration-ms="18061" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[yash]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[y@1234]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2026-04-19T11:16:26 IST" name="Default test" finished-at="2026-04-19T11:16:48 IST" duration-ms="22101">
+      <class name="testng.CreateCampaign">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:testng.CreateCampaign@6743e411]" started-at="2026-04-19T11:16:18 IST" name="beforeSuit" finished-at="2026-04-19T11:16:26 IST" duration-ms="7665" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logInProgram -->
-        <test-method signature="logInProgram(java.lang.String,java.lang.String)[pri:0, instance:testng.SampleDataProvider2@51399530]" started-at="2026-04-19T09:39:07 IST" name="logInProgram" data-provider="loginDetails" finished-at="2026-04-19T09:39:16 IST" duration-ms="9050" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vivek]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[v@1234]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeSuit -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.CreateCampaign@6743e411]" started-at="2026-04-19T11:16:26 IST" name="beforeMethod" finished-at="2026-04-19T11:16:29 IST" duration-ms="3393" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logInProgram -->
-        <test-method signature="logInProgram(java.lang.String,java.lang.String)[pri:0, instance:testng.SampleDataProvider2@51399530]" started-at="2026-04-19T09:39:16 IST" name="logInProgram" data-provider="loginDetails" finished-at="2026-04-19T09:39:25 IST" duration-ms="8632" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abhi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[a@1234]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createCampaignWithMandatoryFields()[pri:1, instance:testng.CreateCampaign@6743e411]" started-at="2026-04-19T11:16:29 IST" name="createCampaignWithMandatoryFields" finished-at="2026-04-19T11:16:35 IST" duration-ms="5459" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Capaign Successfully Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCampaignWithMandatoryFields -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.CreateCampaign@6743e411]" started-at="2026-04-19T11:16:35 IST" name="afterMethod" finished-at="2026-04-19T11:16:36 IST" duration-ms="1604" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logInProgram -->
-      </class> <!-- testng.SampleDataProvider2 -->
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.CreateCampaign@6743e411]" started-at="2026-04-19T11:16:36 IST" name="beforeMethod" finished-at="2026-04-19T11:16:38 IST" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createCampaignWithStatus()[pri:2, instance:testng.CreateCampaign@6743e411]" started-at="2026-04-19T11:16:38 IST" name="createCampaignWithStatus" finished-at="2026-04-19T11:16:41 IST" duration-ms="2532" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Capaign Successfully Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCampaignWithStatus -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.CreateCampaign@6743e411]" started-at="2026-04-19T11:16:41 IST" name="afterMethod" finished-at="2026-04-19T11:16:42 IST" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.CreateCampaign@6743e411]" started-at="2026-04-19T11:16:42 IST" name="beforeMethod" finished-at="2026-04-19T11:16:44 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createCampaignWithExpectedDate()[pri:3, instance:testng.CreateCampaign@6743e411]" started-at="2026-04-19T11:16:44 IST" name="createCampaignWithExpectedDate" finished-at="2026-04-19T11:16:46 IST" duration-ms="2100" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Capaign Successfully Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCampaignWithExpectedDate -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.CreateCampaign@6743e411]" started-at="2026-04-19T11:16:46 IST" name="afterMethod" finished-at="2026-04-19T11:16:48 IST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuit()[pri:0, instance:testng.CreateCampaign@6743e411]" started-at="2026-04-19T11:16:48 IST" name="afterSuit" finished-at="2026-04-19T11:16:49 IST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- testng.CreateCampaign -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

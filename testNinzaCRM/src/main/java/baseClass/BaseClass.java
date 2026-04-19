@@ -23,7 +23,7 @@ import pom.HomePage;
 import pom.LoginPage;
 
 public class BaseClass {
-	WebDriver driver= null;
+	public WebDriver driver= null;
 	PropertyUtility plib=new PropertyUtility();
 	ExcelUtility elib=new ExcelUtility();
 	JavaUtility jlib=new JavaUtility();
