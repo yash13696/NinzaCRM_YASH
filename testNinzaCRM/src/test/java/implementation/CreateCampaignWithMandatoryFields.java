@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 
+import baseClass.BaseClass;
 import genericUtility.ExcelUtility;
 import genericUtility.JavaUtility;
 import genericUtility.PropertyUtility;
@@ -19,7 +20,7 @@ import pom.CreateCampaignPage;
 import pom.HomePage;
 import pom.LoginPage;
 
-public class CreateCampaignWithMandatoryFields {
+public class CreateCampaignWithMandatoryFields extends BaseClass {
 
 	public static void main(String[] args) throws IOException {
 		PropertyUtility plib=new PropertyUtility();
