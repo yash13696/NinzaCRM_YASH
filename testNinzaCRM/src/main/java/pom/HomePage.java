@@ -13,12 +13,16 @@ public class HomePage {
 
 	@FindBy(xpath = "//span[text()='Create Campaign']")
 	private WebElement createcampaign;
+	
 	@FindBy(linkText = "Products")
 	private WebElement product;
+	
 	@FindBy(xpath = "//div[@role='alert']")
 	private WebElement toastmsg;
+	
 	@FindBy(className = "user-icon")
 	private WebElement usericon;
+	
 	@FindBy(xpath = "//div[@class='dropdown-item logout']")
 	private WebElement logout;
 

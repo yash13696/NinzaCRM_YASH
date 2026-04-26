@@ -5,8 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 
 import org.openqa.selenium.WebElement;
-
-import org.testng.Reporter;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import baseClass.BaseClass;
@@ -40,11 +39,7 @@ public class CreateCampaign extends BaseClass {
 		WebElement toastmsg = hp.getToastmsg();
 		slib.explicitWait(driver, toastmsg);
 		String msg = toastmsg.getText();
-		if (msg.contains(CAMPAIGNNAME))
-			Reporter.log("Capaign Successfully Created");
-		else
-			Reporter.log("Campaign not Created!!!!");
-
+		Assert.assertTrue(msg.contains(CAMPAIGNNAME));
 	}
 
 	@Test(priority = 2)
@@ -72,10 +67,7 @@ public class CreateCampaign extends BaseClass {
 		WebElement toastmsg = hp.getToastmsg();
 		slib.explicitWait(driver, toastmsg);
 		String msg = toastmsg.getText();
-		if (msg.contains(CAMPAIGNNAME))
-			Reporter.log("Capaign Successfully Created");
-		else
-			Reporter.log("Campaign not Created!!!!");
+		Assert.assertTrue(msg.contains(CAMPAIGNNAME));
 	}
 
 	@Test(priority = 3)
@@ -102,10 +94,6 @@ public class CreateCampaign extends BaseClass {
 		WebElement toastmsg = hp.getToastmsg();
 		slib.explicitWait(driver, toastmsg);
 		String msg = toastmsg.getText();
-		if (msg.contains(CAMPAIGNNAME))
-			Reporter.log("Capaign Successfully Created");
-		else
-			Reporter.log("Campaign not Created!!!!");
-
+		Assert.assertTrue(msg.contains(CAMPAIGNNAME));
 	}
 }

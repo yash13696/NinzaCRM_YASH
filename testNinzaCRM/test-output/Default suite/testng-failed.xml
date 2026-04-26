@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.CreateCampaign">
+      <class name="testng.WorkingWithSoftAssert">
         <methods>
-          <include name="afterMethod"/>
-          <include name="afterSuit"/>
-          <include name="beforeMethod"/>
-          <include name="beforeSuit"/>
-          <include name="createCampaignWithMandatoryFields"/>
+          <include name="demo"/>
         </methods>
-      </class> <!-- testng.CreateCampaign -->
+      </class> <!-- testng.WorkingWithSoftAssert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
